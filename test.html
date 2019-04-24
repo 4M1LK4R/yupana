@@ -1,0 +1,15 @@
+<button id="btnA" class="btn btn-outline-primary">___</button>
+<script>
+    var flag_btna = false;
+    $("#btnA").click(function () {
+        if (!flag_btna) {
+            $("#btnA").html("🥔");
+            flag_btna = true;
+        }
+        else{
+            $("#btnA").html("___");
+            flag_btna = false;
+        }
+
+    });
+</script>

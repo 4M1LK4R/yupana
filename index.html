@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yupana</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <script src="js/jquery.min.js"></script>
+
+
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container p-4">
+        <h1>Yupana</h1>
+        <p>Porf.: Sandro D. Dominguez</p>
+    </div>
+    <div class="row p-2">
+        <div class="col-sm-12">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="text-center bg-primary text-white">
+                        <th scope="col">
+                            <h4>DM</h4>
+                        </th>
+                        <th scope="col">
+                            <h4>UM</h4>
+                        </th>
+                        <th scope="col">
+                            <h4>C</h4>
+                        </th>
+                        <th scope="col">
+                            <h4>D</h4>
+                        </th>
+                        <th scope="col">
+                            <h4>U</h4>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--1-->
+                    <tr>
+                        <!--DM 1-->
+                        <td>
+                            <center>
+                                <span class="text-primary">Memoria</span><br>
+                                <button id="dm_m_1" class="btn btn-outline-secondary"
+                                    onclick="yupana('dm_m_1');">&nbsp;</button>
+                                <button id="dm_m_2" class="btn btn-outline-secondary"
+                                    onclick="yupana('dm_m_2');">&nbsp;</button>
+                                <button id="dm_m_3" class="btn btn-outline-secondary"
+                                    onclick="yupana('dm_m_3');">&nbsp;</button>
+                                <button id="dm_m_4" class="btn btn-outline-secondary"
+                                    onclick="yupana('dm_m_4');">&nbsp;</button>
+                                <button id="dm_m_5" class="btn btn-outline-secondary"
+                                    onclick="yupana('dm_m_5');">&nbsp;</button><br><br>
+                                <button id="dm_m_6" class="btn btn-outline-secondary"
+                                    onclick="yupana('dm_m_6');">&nbsp;</button>
+                                <button id="dm_m_7" class="btn btn-outline-secondary"
+                                    onclick="yupana('dm_m_7');">&nbsp;</button>
+                                <button id="dm_m_8" class="btn btn-outline-secondary"
+                                    onclick="yupana('dm_m_8');">&nbsp;</button>
+                                <button id="dm_m_9" class="btn btn-outline-secondary"
+                                    onclick="yupana('dm_m_9');">&nbsp;</button>
+                                <button id="dm_m_10" class="btn btn-outline-secondary"
+                                    onclick="yupana('dm_m_10');">&nbsp;</button>
+                            </center>
+                        </td>
+                        <!--UM 1-->
+                        <td>
+                            <center>
+                                <span class="text-primary">Memoria</span><br>
+                                <button id="um_m_1" class="btn btn-outline-secondary"
+                                    onclick="yupana('um_m_1');">&nbsp;</button>
+                                <button id="um_m_2" class="btn btn-outline-secondary"
+                                    onclick="yupana('um_m_2');">&nbsp;</button>
+                                <button id="um_m_3" class="btn btn-outline-secondary"
+                                    onclick="yupana('um_m_3');">&nbsp;</button>
+                                <button id="um_m_4" class="btn btn-outline-secondary"
+                                    onclick="yupana('um_m_4');">&nbsp;</button>
+                                <button id="um_m_5" class="btn btn-outline-secondary"
+                                    onclick="yupana('um_m_5');">&nbsp;</button><br><br>
+                                <button id="um_m_6" class="btn btn-outline-secondary"
+                                    onclick="yupana('um_m_6');">&nbsp;</button>
+                                <button id="um_m_7" class="btn btn-outline-secondary"
+                                    onclick="yupana('um_m_7');">&nbsp;</button>
+                                <button id="um_m_8" class="btn btn-outline-secondary"
+                                    onclick="yupana('um_m_8');">&nbsp;</button>
+                                <button id="um_m_9" class="btn btn-outline-secondary"
+                                    onclick="yupana('um_m_9');">&nbsp;</button>
+                                <button id="um_m_10" class="btn btn-outline-secondary"
+                                    onclick="yupana('um_m_10');">&nbsp;</button>
+                            </center>
+                        </td>
+                        <!--C 1-->
+                        <td>
+                            <center>
+                                <span class="text-primary">Memoria</span><br>
+                                <button id="c_m_1" class="btn btn-outline-secondary"
+                                    onclick="yupana('c_m_1');">&nbsp;</button>
+                                <button id="c_m_2" class="btn btn-outline-secondary"
+                                    onclick="yupana('c_m_2');">&nbsp;</button>
+                                <button id="c_m_3" class="btn btn-outline-secondary"
+                                    onclick="yupana('c_m_3');">&nbsp;</button>
+                                <button id="c_m_4" class="btn btn-outline-secondary"
+                                    onclick="yupana('c_m_4');">&nbsp;</button>
+                                <button id="c_m_5" class="btn btn-outline-secondary"
+                                    onclick="yupana('c_m_5');">&nbsp;</button><br><br>
+                                <button id="c_m_6" class="btn btn-outline-secondary"
+                                    onclick="yupana('c_m_6');">&nbsp;</button>
+                                <button id="c_m_7" class="btn btn-outline-secondary"
+                                    onclick="yupana('c_m_7');">&nbsp;</button>
+                                <button id="c_m_8" class="btn btn-outline-secondary"
+                                    onclick="yupana('c_m_8');">&nbsp;</button>
+                                <button id="c_m_9" class="btn btn-outline-secondary"
+                                    onclick="yupana('c_m_9');">&nbsp;</button>
+                                <button id="c_m_10" class="btn btn-outline-secondary"
+                                    onclick="yupana('c_m_10');">&nbsp;</button>
+                            </center>
+                        </td>
+                        <!--D 1-->
+                        <td>
+                            <center>
+                                <span class="text-primary">Memoria</span><br>
+                                <button id="d_m_1" class="btn btn-outline-secondary"
+                                    onclick="yupana('d_m_1');">&nbsp;</button>
+                                <button id="d_m_2" class="btn btn-outline-secondary"
+                                    onclick="yupana('d_m_2');">&nbsp;</button>
+                                <button id="d_m_3" class="btn btn-outline-secondary"
+                                    onclick="yupana('d_m_3');">&nbsp;</button>
+                                <button id="d_m_4" class="btn btn-outline-secondary"
+                                    onclick="yupana('d_m_4');">&nbsp;</button>
+                                <button id="d_m_5" class="btn btn-outline-secondary"
+                                    onclick="yupana('d_m_5');">&nbsp;</button><br><br>
+                                <button id="d_m_6" class="btn btn-outline-secondary"
+                                    onclick="yupana('d_m_6');">&nbsp;</button>
+                                <button id="d_m_7" class="btn btn-outline-secondary"
+                                    onclick="yupana('d_m_7');">&nbsp;</button>
+                                <button id="d_m_8" class="btn btn-outline-secondary"
+                                    onclick="yupana('d_m_8');">&nbsp;</button>
+                                <button id="d_m_9" class="btn btn-outline-secondary"
+                                    onclick="yupana('d_m_9');">&nbsp;</button>
+                                <button id="d_m_10" class="btn btn-outline-secondary"
+                                    onclick="yupana('d_m_10');">&nbsp;</button>
+                            </center>
+                        </td>
+                        <!--U 1-->
+                        <td>
+                            <center>
+                                <span class="text-primary">Memoria</span><br>
+                                <button id="u_m_1" class="btn btn-outline-secondary"
+                                    onclick="yupana('u_m_1');">&nbsp;</button>
+                                <button id="u_m_2" class="btn btn-outline-secondary"
+                                    onclick="yupana('u_m_2');">&nbsp;</button>
+                                <button id="u_m_3" class="btn btn-outline-secondary"
+                                    onclick="yupana('u_m_3');">&nbsp;</button>
+                                <button id="u_m_4" class="btn btn-outline-secondary"
+                                    onclick="yupana('u_m_4');">&nbsp;</button>
+                                <button id="u_m_5" class="btn btn-outline-secondary"
+                                    onclick="yupana('u_m_5');">&nbsp;</button><br><br>
+                                <button id="u_m_6" class="btn btn-outline-secondary"
+                                    onclick="yupana('u_m_6');">&nbsp;</button>
+                                <button id="u_m_7" class="btn btn-outline-secondary"
+                                    onclick="yupana('u_m_7');">&nbsp;</button>
+                                <button id="u_m_8" class="btn btn-outline-secondary"
+                                    onclick="yupana('u_m_8');">&nbsp;</button>
+                                <button id="u_m_9" class="btn btn-outline-secondary"
+                                    onclick="yupana('u_m_9');">&nbsp;</button>
+                                <button id="u_m_10" class="btn btn-outline-secondary"
+                                    onclick="yupana('u_m_10');">&nbsp;</button>
+                            </center>
+                        </td>
+                    </tr>
+                    <!--2-->
+                    <tr>
+                        <!--DM 2-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td>
+                                            <button id="yp_1" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_1');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_2" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_2');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--UM 2-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td>
+                                            <button id="yp_3" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_3');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_4" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_4');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--C 2-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td>
+                                            <button id="yp_5" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_5');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_6" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_6');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--D 2-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td>
+                                            <button id="yp_7" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_7');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_8" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_8');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--U 2-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td>
+                                            <button id="yp_9" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_9');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_10" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_10');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                    </tr>
+                    <!--3-->
+                    <tr>
+                        <!--DM 3-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_11" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_11');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button id="yp_12" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_12');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_13" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_13');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--UM 3-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_14" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_14');">&nbsp;&nbsp;&nbsp;</button> </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button id="yp_15" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_15');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_16" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_16');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--C 3-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_17" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_17');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button id="yp_18" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_18');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_19" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_19');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--D 3-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_20" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_20');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button id="yp_21" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_21');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_22" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_22');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--U 3-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_23" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_23');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button id="yp_24" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_24');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_25" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_25');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                    </tr>
+                    <!--5-->
+                    <tr>
+                        <!--DM 5-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td>
+                                            <button id="yp_26" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_26');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_27" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_27');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_28" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_28');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button id="yp_29" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_29');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_30" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_30');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--UM 5-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td>
+                                            <button id="yp_31" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_31');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_32" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_32');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_33" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_33');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button id="yp_34" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_34');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_35" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_35');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--C 5-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td>
+                                            <button id="yp_36" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_36');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_37" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_37');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_38" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_38');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button id="yp_39" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_39');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_40" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_40');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--D 5-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td>
+                                            <button id="yp_41" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_41');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_42" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_42');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_43" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_43');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button id="yp_44" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_44');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_45" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_45');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </center>
+                        </td>
+                        <!--U 5-->
+                        <td>
+                            <center>
+                                <table class="table-borderless">
+                                    <tr>
+                                        <td>
+                                            <button id="yp_46" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_46');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_47" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_47');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_48" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_48');">&nbsp;&nbsp;&nbsp;</button>
+                                        </td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button id="yp_49" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_49');">&nbsp;&nbsp;&nbsp;</button>
+
+                                        </td>
+                                        <td></td>
+                                        <td>
+                                            <button id="yp_50" class="btn btn-outline-primary"
+                                                onclick="yupana('yp_50');">&nbsp;&nbsp;&nbsp;</button>
+
+                                        </td>
+                                    </tr>
+
+                                </table>
+                            </center>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
